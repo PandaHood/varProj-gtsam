@@ -223,6 +223,7 @@ lib/libStiefelManifoldExample.so: cpp/CMakeFiles/StiefelManifoldExample.dir/buil
 lib/libStiefelManifoldExample.so: /home/nikolas/gtsam/cmake-build-release/gtsam_unstable/libgtsam_unstable.so.4.3a0
 lib/libStiefelManifoldExample.so: lib/libILDL.so
 lib/libStiefelManifoldExample.so: /usr/lib/x86_64-linux-gnu/libopenblas.so
+lib/libStiefelManifoldExample.so: /usr/lib/x86_64-linux-gnu/libspqr.so
 lib/libStiefelManifoldExample.so: /usr/local/lib/libgflags.a
 lib/libStiefelManifoldExample.so: /home/nikolas/gtsam/cmake-build-release/gtsam/libgtsam.so.4.3a0
 lib/libStiefelManifoldExample.so: /usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.74.0

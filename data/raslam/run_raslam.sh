@@ -2,7 +2,7 @@
 set -uo pipefail
 
 # Root containing the dataset folders
-BASE_DIR="${RASLAM_BASE:-/home/nikolas/StiefelManifold/data/raslam}"
+BASE_DIR="${RASLAM_BASE:-/home/nikolas/varProj-gtsam/data/raslam}"
 
 # Default folders. If you pass args, they'll replace this list (e.g., "./run_all.sh plaza1 tiers").
 FOLDERS=(mrclam plaza1 plaza2 single_drone tiers)

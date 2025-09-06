@@ -110,6 +110,7 @@ bin/SNL_example: /home/nikolas/gtsam/cmake-build-release/gtsam/3rdparty/metis/li
 bin/SNL_example: /home/nikolas/gtsam/cmake-build-release/gtsam/3rdparty/cephes/libcephes-gtsam.so.1.0.0
 bin/SNL_example: lib/libILDL.so
 bin/SNL_example: /usr/lib/x86_64-linux-gnu/libopenblas.so
+bin/SNL_example: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/SNL_example: /usr/local/lib/libgflags.a
 bin/SNL_example: cpp/CMakeFiles/SNL_example.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nikolas/varProj-gtsam/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/SNL_example"

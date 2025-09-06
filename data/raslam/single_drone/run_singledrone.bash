@@ -2,9 +2,9 @@
 set -euo pipefail
 
 # Paths
-BIN="/home/nikolas/StiefelManifold/cmake-build-default/bin/RASLAM_example"
+BIN="/home/nikolas/varProj-gtsam/cmake-build-default/bin/RASLAM_example"
 DIM=3
-DATA_DIR="/home/nikolas/StiefelManifold/data/raslam/single_drone"
+DATA_DIR="/home/nikolas/varProj-gtsam/data/raslam/single_drone"
 PYFG="$DATA_DIR/single_drone.pyfg"
 INITS_DIR="$DATA_DIR/inits"
 

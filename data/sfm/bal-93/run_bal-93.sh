@@ -2,9 +2,9 @@
 set -euo pipefail
 
 # Paths
-BIN="/home/nikolas/StiefelManifold/cmake-build-default/bin/BA_example"
+BIN="/home/nikolas/varProj-gtsam/cmake-build-default/bin/BA_example"
 DIM=3
-DATA_DIR="/home/nikolas/StiefelManifold/data/sfm/bal-93"
+DATA_DIR="/home/nikolas/varProj-gtsam/data/sfm/bal-93"
 PYFG="$DATA_DIR/bal-93.pyfg"
 INITS_DIR="$DATA_DIR/inits"
 
@@ -18,7 +18,7 @@ for INIT_PATH in "$INITS_DIR"/rank*_init*.txt; do
   INIT_FILE="$(basename "$INIT_PATH")"
 
   # Expected pattern: rankP_initN.txt (e.g., rank6_init7.txt)
-  if [[ "$INIT_FILE" =~ ^rank([0-9]+)_init([0-9]+)\.txt$ ]]; then
+  if [[ "$INIT_FILE" =~ ^rank([0-5]+)_init([0-5]+)\.txt$ ]]; then
     RANK="${BASH_REMATCH[1]}"
     INIT_NUM="${BASH_REMATCH[2]}"
 

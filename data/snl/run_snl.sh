@@ -3,7 +3,7 @@ set -uo pipefail
 
 # Root containing the SNL dataset folders
 # Override with: SNL_BASE=/custom/path ./run_snl_all.sh
-BASE_DIR="${SNL_BASE:-/home/nikolas/StiefelManifold/data/snl}"
+BASE_DIR="${SNL_BASE:-/home/nikolas/varProj-gtsam/data/snl}"
 
 # Default folders. If you pass args, they'll replace this list (e.g., "./run_snl_all.sh MIT_snl sphere2500_snl").
 FOLDERS=(intel_snl M3500_snl MIT_snl parking-garage_snl sphere2500_snl)

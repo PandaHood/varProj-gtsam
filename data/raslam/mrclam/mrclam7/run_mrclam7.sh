@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Paths
-BIN="/home/nikolas/StiefelManifold/cmake-build-default/bin/RASLAM_example"
+BIN="/home/nikolas/varProj-gtsam/cmake-build-default/bin/RASLAM_example"
 DIM=2
 DATA_DIR="/home/nikolas/StiefelManifold/data/raslam/mrclam/mrclam7"
 PYFG="$DATA_DIR/mrclam7.pyfg"

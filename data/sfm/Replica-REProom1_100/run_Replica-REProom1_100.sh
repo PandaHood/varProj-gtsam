@@ -2,9 +2,9 @@
 set -euo pipefail
 
 # Paths
-BIN="/home/nikolas/StiefelManifold/cmake-build-default/bin/BA_example"
+BIN="/home/nikolas/varProj-gtsam/cmake-build-default/bin/BA_example"
 DIM=3
-DATA_DIR="/home/nikolas/StiefelManifold/data/sfm/Replica-REProom1_100"
+DATA_DIR="/home/nikolas/varProj-gtsam/data/sfm/Replica-REProom1_100"
 PYFG="$DATA_DIR/Replica-REProom1_100.pyfg"
 INITS_DIR="$DATA_DIR/inits"
 

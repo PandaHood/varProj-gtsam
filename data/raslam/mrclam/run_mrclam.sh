@@ -3,7 +3,7 @@ set -uo pipefail
 
 # Base directory for MRCLAM datasets
 # You can override with: MRCLAM_BASE=/custom/path ./run_mrclam.sh
-BASE_DIR="${MRCLAM_BASE:-${RASLAM_BASE:-/home/nikolas/StiefelManifold/data/raslam}}/mrclam"
+BASE_DIR="${MRCLAM_BASE:-${RASLAM_BASE:-/home/nikolas/varProj-gtsam/data/raslam}}/mrclam"
 
 # Default targets; can be overridden by CLI args
 DEFAULT_TARGETS=(mrclam2 mrclam4 mrclam6 mrclam7)

@@ -2,9 +2,9 @@
 set -euo pipefail
 
 # Paths
-BIN="/home/nikolas/StiefelManifold/cmake-build-default/bin/SNL_example"
+BIN="/home/nikolas/varProj-gtsam/cmake-build-default/bin/SNL_example"
 DIM=2
-DATA_DIR="/home/nikolas/StiefelManifold/data/snl/MIT_snl"
+DATA_DIR="/home/nikolas/varProj-gtsam/data/snl/MIT_snl"
 PYFG="$DATA_DIR/MIT_snl.pyfg"
 INITS_DIR="$DATA_DIR/inits"
 

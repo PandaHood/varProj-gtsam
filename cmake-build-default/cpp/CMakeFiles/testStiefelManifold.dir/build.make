@@ -111,6 +111,7 @@ bin/testStiefelManifold: /home/nikolas/gtsam/cmake-build-release/gtsam/3rdparty/
 bin/testStiefelManifold: /home/nikolas/gtsam/cmake-build-release/gtsam/3rdparty/cephes/libcephes-gtsam.so.1.0.0
 bin/testStiefelManifold: lib/libILDL.so
 bin/testStiefelManifold: /usr/lib/x86_64-linux-gnu/libopenblas.so
+bin/testStiefelManifold: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/testStiefelManifold: /usr/local/lib/libgflags.a
 bin/testStiefelManifold: cpp/CMakeFiles/testStiefelManifold.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nikolas/varProj-gtsam/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/testStiefelManifold"

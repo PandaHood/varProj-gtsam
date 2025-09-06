@@ -111,6 +111,7 @@ bin/testSEsyncFactor: /home/nikolas/gtsam/cmake-build-release/gtsam/3rdparty/met
 bin/testSEsyncFactor: /home/nikolas/gtsam/cmake-build-release/gtsam/3rdparty/cephes/libcephes-gtsam.so.1.0.0
 bin/testSEsyncFactor: lib/libILDL.so
 bin/testSEsyncFactor: /usr/lib/x86_64-linux-gnu/libopenblas.so
+bin/testSEsyncFactor: /usr/lib/x86_64-linux-gnu/libspqr.so
 bin/testSEsyncFactor: /usr/local/lib/libgflags.a
 bin/testSEsyncFactor: cpp/CMakeFiles/testSEsyncFactor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nikolas/varProj-gtsam/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/testSEsyncFactor"

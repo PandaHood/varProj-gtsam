@@ -2,9 +2,9 @@
 set -euo pipefail
 
 # Paths
-BIN="/home/nikolas/StiefelManifold/cmake-build-default/bin/BA_example"
+BIN="/home/nikolas/varProj-gtsam/cmake-build-default/bin/BA_example"
 DIM=3
-DATA_DIR="/home/nikolas/StiefelManifold/data/sfm/IMC-temple"
+DATA_DIR="/home/nikolas/varProj-gtsam/data/sfm/IMC-temple"
 PYFG="$DATA_DIR/IMC-temple.pyfg"
 INITS_DIR="$DATA_DIR/inits"
 

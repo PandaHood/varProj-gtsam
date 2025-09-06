@@ -503,7 +503,7 @@ StiefelManifoldExample_BINARY_DIR:STATIC=/home/nikolas/varProj-gtsam/cmake-build
 StiefelManifoldExample_IS_TOP_LEVEL:STATIC=ON
 
 //Dependencies for the target
-StiefelManifoldExample_LIB_DEPENDS:STATIC=general;gtsam;general;gtsam_unstable;general;Optimization;general;ILDL;general;/usr/lib/x86_64-linux-gnu/libopenblas.so;general;cholmod;general;gflags;general;glog;
+StiefelManifoldExample_LIB_DEPENDS:STATIC=general;gtsam;general;gtsam_unstable;general;Optimization;general;ILDL;general;/usr/lib/x86_64-linux-gnu/libopenblas.so;general;/usr/lib/x86_64-linux-gnu/libspqr.so;general;cholmod;general;gflags;general;glog;
 
 //Value Computed by CMake
 StiefelManifoldExample_SOURCE_DIR:STATIC=/home/nikolas/varProj-gtsam
@@ -741,6 +741,8 @@ COMPILER_HAS_WSUGGEST_OVERRIDE:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_BLAS:INTERNAL=[/usr/lib/x86_64-linux-gnu/libopenblas.so][v()]
 //Details about finding Boost
 FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake][cfound components: serialization system filesystem thread program_options date_time timer chrono regex ][v1.74.0(1.65)]
+//Details about finding Eigen3
+FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[/usr/local/include/eigen3][TRUE][v(3.3.7)]
 //Details about finding GTest
 FIND_PACKAGE_MESSAGE_DETAILS_GTest:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake][c ][v1.11.0()]
 //Details about finding OpenMP

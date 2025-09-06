@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="StiefelManifoldExample" targetName="all.tests" />
+      <config projectName="StiefelManifoldExample" targetName="testDataMatrix" />
+      <config projectName="StiefelManifoldExample" targetName="testNormalRangeFactor.valgrind" />
+      <config projectName="StiefelManifoldExample" targetName="testStiefelManifold" />
+      <config projectName="StiefelManifoldExample" targetName="SNL_example" />
+      <config projectName="StiefelManifoldExample" targetName="testLiftedRangeFactor" />
+      <config projectName="StiefelManifoldExample" targetName="testLiftedPose.valgrind" />
+      <config projectName="StiefelManifoldExample" targetName="SESync_example.run" />
+      <config projectName="StiefelManifoldExample" targetName="RASLAM_example.run" />
+      <config projectName="StiefelManifoldExample" targetName="testLiftedRangeFactor.valgrind" />
+      <config projectName="StiefelManifoldExample" targetName="BA_example" />
+      <config projectName="StiefelManifoldExample" targetName="testSEsyncFactor" />
+      <config projectName="StiefelManifoldExample" targetName="testNormalRangeFactor" />
+      <config projectName="StiefelManifoldExample" targetName="testRaFactor.valgrind" />
+      <config projectName="StiefelManifoldExample" targetName="ScaledStiefel_example.run" />
+      <config projectName="StiefelManifoldExample" targetName="LSChol" />
+      <config projectName="StiefelManifoldExample" targetName="testLiftedRangeFactor.run" />
+      <config projectName="StiefelManifoldExample" targetName="BA_example.run" />
+      <config projectName="StiefelManifoldExample" targetName="examples" />
+      <config projectName="StiefelManifoldExample" targetName="timing" />
+      <config projectName="StiefelManifoldExample" targetName="testPriorFactor.valgrind" />
+      <config projectName="StiefelManifoldExample" targetName="testStiefelManifold.valgrind" />
+      <config projectName="StiefelManifoldExample" targetName="SNL_example.run" />
+      <config projectName="StiefelManifoldExample" targetName="testNormalRangeFactor.run" />
+      <config projectName="StiefelManifoldExample" targetName="check_valgrind" />
+      <config projectName="StiefelManifoldExample" targetName="testLandmarkFactor" />
+      <config projectName="StiefelManifoldExample" targetName="testStiefelManifold.run" />
+      <config projectName="StiefelManifoldExample" targetName="testLandmarkFactor.valgrind" />
+      <config projectName="StiefelManifoldExample" targetName="ScaledStiefel_example" />
+      <config projectName="StiefelManifoldExample" targetName="check.tests" />
+      <config projectName="StiefelManifoldExample" targetName="testLiftedPose.run" />
+      <config projectName="StiefelManifoldExample" targetName="testLandmarkFactor.run" />
+      <config projectName="StiefelManifoldExample" targetName="ScaledStiefelBA_example" />
+      <config projectName="StiefelManifoldExample" targetName="testDataMatrix.valgrind" />
+      <config projectName="StiefelManifoldExample" targetName="ILDL" />
+      <config projectName="StiefelManifoldExample" targetName="testPriorFactor.run" />
+      <config projectName="StiefelManifoldExample" targetName="testPriorFactor" />
+      <config projectName="StiefelManifoldExample" targetName="check" />
+      <config projectName="StiefelManifoldExample" targetName="testSEsyncFactor.run" />
+      <config projectName="StiefelManifoldExample" targetName="testDataMatrix.run" />
+      <config projectName="StiefelManifoldExample" targetName="testLiftedPose" />
+      <config projectName="StiefelManifoldExample" targetName="testRaFactor.run" />
+      <config projectName="StiefelManifoldExample" targetName="ScaledStiefelBA_example.run" />
+      <config projectName="StiefelManifoldExample" targetName="StiefelManifoldExample" />
+      <config projectName="StiefelManifoldExample" targetName="testRaFactor" />
+      <config projectName="StiefelManifoldExample" targetName="RASLAM_example" />
+      <config projectName="StiefelManifoldExample" targetName="SESync_example" />
+      <config projectName="StiefelManifoldExample" targetName="testSEsyncFactor.valgrind" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Default" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd05c6c6-5f6f-4160-80d0-58c5f29ab7e2" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Default" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2025" />
+    <option name="minorVersion" value="2.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="32KlRoSy0m1kvneT5syFUMqk99Y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "ctest.advertisement.all.test.configuration.is.created": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="CMake Application.BA_example">
+    <configuration name="testDataMatrix" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testDataMatrix" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="StiefelManifoldExample" RUN_TARGET_NAME="testDataMatrix" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BA_example" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="BA_example" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="StiefelManifoldExample" RUN_TARGET_NAME="BA_example">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BA_example.run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="BA_example.run" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ILDL" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="ILDL" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LSChol" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="LSChol" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RASLAM_example" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="RASLAM_example" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="StiefelManifoldExample" RUN_TARGET_NAME="RASLAM_example">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RASLAM_example.run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="RASLAM_example.run" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SESync_example" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="SESync_example" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="StiefelManifoldExample" RUN_TARGET_NAME="SESync_example">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SESync_example.run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="SESync_example.run" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SNL_example" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="SNL_example" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="StiefelManifoldExample" RUN_TARGET_NAME="SNL_example">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SNL_example.run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="SNL_example.run" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScaledStiefelBA_example" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="ScaledStiefelBA_example" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="StiefelManifoldExample" RUN_TARGET_NAME="ScaledStiefelBA_example">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScaledStiefelBA_example.run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="ScaledStiefelBA_example.run" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScaledStiefel_example" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="ScaledStiefel_example" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="StiefelManifoldExample" RUN_TARGET_NAME="ScaledStiefel_example">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScaledStiefel_example.run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="ScaledStiefel_example.run" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StiefelManifoldExample" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="StiefelManifoldExample" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all.tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="all.tests" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="check" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check.tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="check.tests" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check_valgrind" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="check_valgrind" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="examples" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="examples" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testDataMatrix.run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testDataMatrix.run" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testDataMatrix.valgrind" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testDataMatrix.valgrind" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testLandmarkFactor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testLandmarkFactor" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="StiefelManifoldExample" RUN_TARGET_NAME="testLandmarkFactor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testLandmarkFactor.run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testLandmarkFactor.run" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testLandmarkFactor.valgrind" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testLandmarkFactor.valgrind" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testLiftedPose" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testLiftedPose" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="StiefelManifoldExample" RUN_TARGET_NAME="testLiftedPose">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testLiftedPose.run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testLiftedPose.run" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testLiftedPose.valgrind" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testLiftedPose.valgrind" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testLiftedRangeFactor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testLiftedRangeFactor" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="StiefelManifoldExample" RUN_TARGET_NAME="testLiftedRangeFactor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testLiftedRangeFactor.run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testLiftedRangeFactor.run" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testLiftedRangeFactor.valgrind" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testLiftedRangeFactor.valgrind" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testNormalRangeFactor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testNormalRangeFactor" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="StiefelManifoldExample" RUN_TARGET_NAME="testNormalRangeFactor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testNormalRangeFactor.run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testNormalRangeFactor.run" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testNormalRangeFactor.valgrind" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testNormalRangeFactor.valgrind" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testPriorFactor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testPriorFactor" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="StiefelManifoldExample" RUN_TARGET_NAME="testPriorFactor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testPriorFactor.run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testPriorFactor.run" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testPriorFactor.valgrind" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testPriorFactor.valgrind" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testRaFactor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testRaFactor" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="StiefelManifoldExample" RUN_TARGET_NAME="testRaFactor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testRaFactor.run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testRaFactor.run" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testRaFactor.valgrind" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testRaFactor.valgrind" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testSEsyncFactor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testSEsyncFactor" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="StiefelManifoldExample" RUN_TARGET_NAME="testSEsyncFactor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testSEsyncFactor.run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testSEsyncFactor.run" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testSEsyncFactor.valgrind" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testSEsyncFactor.valgrind" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testStiefelManifold" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testStiefelManifold" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="StiefelManifoldExample" RUN_TARGET_NAME="testStiefelManifold">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testStiefelManifold.run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testStiefelManifold.run" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testStiefelManifold.valgrind" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="testStiefelManifold.valgrind" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="timing" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StiefelManifoldExample" TARGET_NAME="timing" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All CTest" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.all.tests" />
+      <item itemvalue="CMake Application.check" />
+      <item itemvalue="CMake Application.check_valgrind" />
+      <item itemvalue="CMake Application.examples" />
+      <item itemvalue="CMake Application.timing" />
+      <item itemvalue="CMake Application.BA_example" />
+      <item itemvalue="CMake Application.BA_example.run" />
+      <item itemvalue="CMake Application.check.tests" />
+      <item itemvalue="CMake Application.RASLAM_example" />
+      <item itemvalue="CMake Application.RASLAM_example.run" />
+      <item itemvalue="CMake Application.ScaledStiefel_example" />
+      <item itemvalue="CMake Application.ScaledStiefel_example.run" />
+      <item itemvalue="CMake Application.ScaledStiefelBA_example" />
+      <item itemvalue="CMake Application.ScaledStiefelBA_example.run" />
+      <item itemvalue="CMake Application.SESync_example" />
+      <item itemvalue="CMake Application.SESync_example.run" />
+      <item itemvalue="CMake Application.SNL_example" />
+      <item itemvalue="CMake Application.SNL_example.run" />
+      <item itemvalue="CMake Application.StiefelManifoldExample" />
+      <item itemvalue="CMake Application.testDataMatrix.run" />
+      <item itemvalue="CMake Application.testDataMatrix.valgrind" />
+      <item itemvalue="CMake Application.testLandmarkFactor" />
+      <item itemvalue="CMake Application.testLandmarkFactor.run" />
+      <item itemvalue="CMake Application.testLandmarkFactor.valgrind" />
+      <item itemvalue="CMake Application.testLiftedPose" />
+      <item itemvalue="CMake Application.testLiftedPose.run" />
+      <item itemvalue="CMake Application.testLiftedPose.valgrind" />
+      <item itemvalue="CMake Application.testLiftedRangeFactor" />
+      <item itemvalue="CMake Application.testLiftedRangeFactor.run" />
+      <item itemvalue="CMake Application.testLiftedRangeFactor.valgrind" />
+      <item itemvalue="CMake Application.testNormalRangeFactor" />
+      <item itemvalue="CMake Application.testNormalRangeFactor.run" />
+      <item itemvalue="CMake Application.testNormalRangeFactor.valgrind" />
+      <item itemvalue="CMake Application.testPriorFactor" />
+      <item itemvalue="CMake Application.testPriorFactor.run" />
+      <item itemvalue="CMake Application.testPriorFactor.valgrind" />
+      <item itemvalue="CMake Application.testRaFactor" />
+      <item itemvalue="CMake Application.testRaFactor.run" />
+      <item itemvalue="CMake Application.testRaFactor.valgrind" />
+      <item itemvalue="CMake Application.testSEsyncFactor" />
+      <item itemvalue="CMake Application.testSEsyncFactor.run" />
+      <item itemvalue="CMake Application.testSEsyncFactor.valgrind" />
+      <item itemvalue="CMake Application.testStiefelManifold" />
+      <item itemvalue="CMake Application.testStiefelManifold.run" />
+      <item itemvalue="CMake Application.testStiefelManifold.valgrind" />
+      <item itemvalue="CMake Application.ILDL" />
+      <item itemvalue="CMake Application.LSChol" />
+      <item itemvalue="CTest Application.All CTest" />
+      <item itemvalue="Google Test.testDataMatrix" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd05c6c6-5f6f-4160-80d0-58c5f29ab7e2" name="Changes" comment="" />
+      <created>1757177139777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757177139777</updated>
+      <workItem from="1757177142208" duration="727000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+</project>
