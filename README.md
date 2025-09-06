@@ -12,3 +12,9 @@ make -j
 
 You can then run the bash scripts inside the data folders (Provided you have added the data).
 
+```
+./data/raslam/run_raslam.sh
+./data/sfm/run_sfm.sh
+./data/snl/run_snl.sh
+```
+
