@@ -1,4 +1,3 @@
-cmake-build-default/*
 *.pyfg
 /data/raslam/plaza1/inits/*.txt
 /data/raslam/plaza2/inits/*.txt
