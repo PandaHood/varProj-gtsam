@@ -1,0 +1,148 @@
+[
+  {
+    "costs": [
+      17550.60686043246,
+      1564.9680623262914,
+      820.7390402094646
+    ],
+    "dataset_name": "TUM-computer-R",
+    "formulation": "gtsam",
+    "init_file": "rank3_init10.txt",
+    "times": [
+      7.443229329,
+      6.997835247,
+      6.817225483
+    ]
+  },
+  {
+    "costs": [
+      93892.02929485102,
+      85326.84882378421,
+      71104.97705906234
+    ],
+    "dataset_name": "TUM-computer-R",
+    "formulation": "gtsam",
+    "init_file": "rank3_init1.txt",
+    "times": [
+      7.303642542,
+      6.980501568,
+      6.847745021
+    ]
+  },
+  {
+    "costs": [
+      95572.86828164414,
+      91355.08905035263,
+      81276.75832419722
+    ],
+    "dataset_name": "TUM-computer-R",
+    "formulation": "gtsam",
+    "init_file": "rank3_init2.txt",
+    "times": [
+      7.323812245,
+      6.966989375,
+      6.808792219
+    ]
+  },
+  {
+    "costs": [
+      17550.60686043246,
+      1564.9680623262914,
+      820.7390402094646
+    ],
+    "dataset_name": "TUM-computer-R",
+    "formulation": "gtsam",
+    "init_file": "rank3_init3.txt",
+    "times": [
+      7.368103593,
+      6.908101645,
+      6.711918758
+    ]
+  },
+  {
+    "costs": [
+      93228.94514297706,
+      85343.70912939694,
+      71328.87327039296
+    ],
+    "dataset_name": "TUM-computer-R",
+    "formulation": "gtsam",
+    "init_file": "rank3_init4.txt",
+    "times": [
+      7.280569471,
+      6.788503061,
+      6.788285418
+    ]
+  },
+  {
+    "costs": [
+      95390.79350772666,
+      90197.60717008269,
+      78705.31981414775
+    ],
+    "dataset_name": "TUM-computer-R",
+    "formulation": "gtsam",
+    "init_file": "rank3_init5.txt",
+    "times": [
+      7.355517113,
+      6.950466631,
+      6.888659982
+    ]
+  },
+  {
+    "costs": [
+      1.2342788769895694e+156,
+      2.9705319631962437e+148,
+      3.3246666740391855e+141
+    ],
+    "dataset_name": "TUM-computer-R",
+    "formulation": "gtsam",
+    "init_file": "rank3_init6.txt",
+    "times": [
+      7.339358618,
+      7.035464061,
+      6.829077336
+    ]
+  },
+  {
+    "costs": [
+      17550.60686043246,
+      1564.9680623262914,
+      820.7390402094646
+    ],
+    "dataset_name": "TUM-computer-R",
+    "formulation": "gtsam",
+    "init_file": "rank3_init7.txt",
+    "times": [
+      7.394213344,
+      6.938446634,
+      6.844270192
+    ]
+  },
+  {
+    "costs": [
+      94007.88884762784,
+      85611.14078394754,
+      71551.55161701968
+    ],
+    "dataset_name": "TUM-computer-R",
+    "formulation": "gtsam",
+    "init_file": "rank3_init8.txt",
+    "times": [
+      7.227499295,
+      6.833018592,
+      6.601215237
+    ]
+  },
+  {
+    "costs": [
+      null
+    ],
+    "dataset_name": "TUM-computer-R",
+    "formulation": "gtsam",
+    "init_file": "rank3_init9.txt",
+    "times": [
+      96.579257144
+    ]
+  }
+]
