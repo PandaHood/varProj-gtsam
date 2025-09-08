@@ -451,7 +451,7 @@ int main(int argc, char* argv[])
   std::vector<double> times;  // cumulative seconds
   costs.reserve(lmParams.maxIterations + 1);
   times.reserve(lmParams.maxIterations + 1);
-
+  costs.push_back(lm->error());
   double prevErr = std::numeric_limits<double>::infinity();
   for (size_t it = 0; it < lmParams.maxIterations; ++it) {
     auto t0 = clock_type::now();
