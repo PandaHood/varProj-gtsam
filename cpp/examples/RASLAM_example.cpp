@@ -707,7 +707,7 @@ int main(int argc, char* argv[]) {
   std::string init_file   = datasetKeyFromPath(std::string(argv[4]));
 
   appendRunToResultsJsonFlat(
-    "/home/nikolas/varProj-gtsam/data/raslam/" + dataset_name + "/results.json",
+    "varProj-gtsam/data/raslam/" + dataset_name + "/results.json",
     dataset_name, formulation, init_file, costs, times);
 
   cout << "[Done] iterations=" << lm->iterations()
