@@ -19,7 +19,7 @@
 #include <iomanip>
 #include <limits>
 #include <filesystem>
-#include <nlohmann/json.hpp>
+#include <../json.hpp>
 #include <chrono>
 
 

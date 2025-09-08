@@ -27,7 +27,7 @@
 #include <ctime>
 #include <limits>
 #include <filesystem>
-#include <nlohmann/json.hpp>
+#include <../json.hpp>
 #include <chrono>
 #include <random>
 

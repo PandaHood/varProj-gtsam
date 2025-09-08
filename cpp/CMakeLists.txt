@@ -19,5 +19,5 @@ add_library(${PROJECT_NAME} SHARED ${ex_srcs} ${ex_headers}
 )
 
 # linking with dependences
-target_link_libraries(${PROJECT_NAME} PUBLIC nlohmann_json::nlohmann_json gtsam gtsam_unstable Optimization ILDL ${BLAS_LIBRARIES} ${SPQR_LIBRARIES} ${LAPACK} cholmod gflags glog)
+target_link_libraries(${PROJECT_NAME} PUBLIC  gtsam gtsam_unstable Optimization ILDL ${BLAS_LIBRARIES} ${SPQR_LIBRARIES} ${LAPACK} cholmod) # gflags glog)
 

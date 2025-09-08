@@ -30,8 +30,8 @@ endif()
 
 
 # Find GTSAM components
-set(GTSAM_DIR /home/nikolas/gtsam/cmake-build-release)
-set(GTSAM_UNSTABLE_DIR /home/nikolas/gtsam/cmake-build-release)
+#set(GTSAM_DIR /home/nikolas/gtsam/cmake-build-release)
+#set(GTSAM_UNSTABLE_DIR /home/nikolas/gtsam/cmake-build-release)
 #set(GTSAM_DIR /home/jason/DPGO/gtsam_personal/cmake-build-release)
 #set(GTSAM_UNSTABLE_DIR /home/jason/DPGO/gtsam_personal/cmake-build-release)
 
@@ -63,31 +63,30 @@ include(GtsamMakeConfigFile)
 include(GtsamBuildTypes)
 include(GtsamTesting)
 
-#–– gflags
-find_package(gflags REQUIRED)
-if (gflags_FOUND)
-    message(STATUS "gflags: found (version ${gflags_VERSION})")
-else()
-    message(WARNING "gflags: NOT found")
-endif()
+# #–– gflags
+# find_package(gflags REQUIRED)
+# if (gflags_FOUND)
+#     message(STATUS "gflags: found (version ${gflags_VERSION})")
+# else()
+#     message(WARNING "gflags: NOT found")
+# endif()
 
-#–– glog
-find_package(glog REQUIRED)
-if (glog_FOUND)
-    message(STATUS "glog: found (version ${glog_VERSION})")
-else()
-    message(WARNING "glog: NOT found")
-endif()
+# #–– glog
+# find_package(glog REQUIRED)
+# if (glog_FOUND)
+#     message(STATUS "glog: found (version ${glog_VERSION})")
+# else()
+#     message(WARNING "glog: NOT found")
+# endif()
 
-#–– GoogleTest
-find_package(GTest REQUIRED)
-if (GTest_FOUND)
-    message(STATUS "GTest: found (version ${GTest_VERSION})")
-else()
-    message(WARNING "GTest: NOT found")
-endif()
+# #–– GoogleTest
+# find_package(GTest REQUIRED)
+# if (GTest_FOUND)
+#     message(STATUS "GTest: found (version ${GTest_VERSION})")
+# else()
+#     message(WARNING "GTest: NOT found")
+# endif()
 
-find_package(nlohmann_json REQUIRED)
 # for unittest scripts
 set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH}" "${GTSAM_DIR}/../GTSAMCMakeTools")
 
