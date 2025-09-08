@@ -2,9 +2,11 @@
 set -euo pipefail
 
 # Paths
-BIN="/home/nikolas/varProj-gtsam/cmake-build-default/bin/BA_example"
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+
+BIN="$REPO_ROOT/cmake-build-default/bin/BA_example"
 DIM=3
-DATA_DIR="/home/nikolas/varProj-gtsam/data/sfm/bal-392"
+DATA_DIR="$REPO_ROOT/data/sfm/bal-392"
 PYFG="$DATA_DIR/bal-392.pyfg"
 INITS_DIR="$DATA_DIR/inits"
 

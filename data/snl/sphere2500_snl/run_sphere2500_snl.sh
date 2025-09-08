@@ -3,11 +3,10 @@ set -euo pipefail
 
 # Paths
 REPO_ROOT="$(git rev-parse --show-toplevel)"
-
 BIN="$REPO_ROOT/cmake-build-default/bin/SNL_example"
-DIM=2
-DATA_DIR="$REPO_ROOT/data/snl/MIT_snl"
-PYFG="$DATA_DIR/MIT_snl.pyfg"
+DIM=3
+DATA_DIR="$REPO_ROOT/data/snl/sphere2500_snl"
+PYFG="$DATA_DIR/sphere2500_snl.pyfg"
 INITS_DIR="$DATA_DIR/inits"
 
 # Checks

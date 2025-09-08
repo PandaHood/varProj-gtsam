@@ -2,10 +2,12 @@
 set -euo pipefail
 
 # Paths
-BIN="/home/nikolas/varProj-gtsam/cmake-build-default/bin/RASLAM_example"
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+
+BIN="$REPO_ROOT/cmake-build-default/bin/BA_example"
 DIM=3
-DATA_DIR="/home/nikolas/varProj-gtsam/data/raslam/single_drone"
-PYFG="$DATA_DIR/single_drone.pyfg"
+DATA_DIR="$REPO_ROOT/data/sfm/IMC-rome"
+PYFG="$DATA_DIR/IMC-rome.pyfg"
 INITS_DIR="$DATA_DIR/inits"
 
 # Checks
@@ -30,4 +32,3 @@ for INIT_PATH in "$INITS_DIR"/rank*_init*.txt; do
 done
 
 echo "All runs complete."
-

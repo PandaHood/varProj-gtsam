@@ -2,10 +2,12 @@
 set -euo pipefail
 
 # Paths
-BIN="/home/nikolas/varProj-gtsam/cmake-build-default/bin/SNL_example"
-DIM=3
-DATA_DIR="/home/nikolas/varProj-gtsam/data/snl/sphere2500_snl"
-PYFG="$DATA_DIR/sphere2500_snl.pyfg"
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+
+BIN="$REPO_ROOT/cmake-build-default/bin/RASLAM_example"
+DIM=2
+DATA_DIR="/$REPO_ROOT/data/raslam/tiers"
+PYFG="$DATA_DIR/tiers.pyfg"
 INITS_DIR="$DATA_DIR/inits"
 
 # Checks
