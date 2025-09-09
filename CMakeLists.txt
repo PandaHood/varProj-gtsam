@@ -30,18 +30,21 @@ endif()
 
 
 # Find GTSAM components
-#set(GTSAM_DIR /home/nikolas/gtsam/cmake-build-release)
-#set(GTSAM_UNSTABLE_DIR /home/nikolas/gtsam/cmake-build-release)
-#set(GTSAM_DIR /home/jason/DPGO/gtsam_personal/cmake-build-release)
-#set(GTSAM_UNSTABLE_DIR /home/jason/DPGO/gtsam_personal/cmake-build-release)
+set(GTSAM_DIR /home/alan/gtsam/build)
+set(GTSAM_UNSTABLE_DIR /home/alan/gtsam/build)
+set(GTSAM_MIN_VERSION "4.3.0")
 
-find_package(GTSAM REQUIRED) # Uses installed package
+# Make sure CMake searches these directories first
+list(APPEND CMAKE_PREFIX_PATH "${GTSAM_DIR}" "${GTSAM_UNSTABLE_DIR}")
+
+# require GTSAM 4.3.0 at least and use GTSAM_DIR to find the package
+find_package(GTSAM REQUIRED ${GTSAM_MIN_VERSION} PATHS ${GTSAM_DIR}) # Uses installed package
 if(GTSAM_FOUND)
     message(STATUS "Found GTSAM library: ${GTSAM_INCLUDE_DIR}\n")
 endif()
 include_directories(${GTSAM_INCLUDE_DIR})
 
-find_package(GTSAM_UNSTABLE REQUIRED) # Uses installed package
+find_package(GTSAM_UNSTABLE REQUIRED ${GTSAM_MIN_VERSION} PATHS ${GTSAM_UNSTABLE_DIR}) # Uses installed package
 if(GTSAM_UNSTABLE_FOUND)
     message(STATUS "Found GTSAM_UNSTABLE library: ${GTSAM_INCLUDE_DIR}\n")
 endif()
