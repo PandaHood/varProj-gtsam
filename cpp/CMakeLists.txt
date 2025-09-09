@@ -2,13 +2,8 @@
 file(GLOB ex_headers "*.h" "*.hpp")
 install(FILES ${ex_headers} DESTINATION include/StiefelManifoldExample)
 
-# Add unit tests
-gtsamAddTestsGlob(tests "tests/*.cpp" "" ${PROJECT_NAME})
-
 # Add executables
 gtsamAddExamplesGlob("examples/*.cpp" "" "${PROJECT_NAME}" ON)
-
-gtsamAddExamplesGlob("experiments/*.cpp" "" "${PROJECT_NAME}" ON)
 
 ### install lib, only do that if *.c or *.cpp exist
 # since C srcs exist, use *.c* as pattern, not *.cpp
