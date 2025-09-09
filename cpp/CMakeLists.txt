@@ -1,5 +1,5 @@
-# install header
-file(GLOB ex_headers "*.h")
+# install headers (*.h, *.hpp)
+file(GLOB ex_headers "*.h" "*.hpp")
 install(FILES ${ex_headers} DESTINATION include/StiefelManifoldExample)
 
 # Add unit tests
