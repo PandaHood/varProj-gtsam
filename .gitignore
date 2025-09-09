@@ -33,3 +33,5 @@ data/sfm/bal-392/inits/*.txt
 /data/snl/sphere2500_snl/inits/*.txt
 
 /cmake-build-default/*
+build
+.vscode
