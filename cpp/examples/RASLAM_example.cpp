@@ -680,6 +680,7 @@ int main(int argc, char* argv[]) {
   costs.reserve(lmParams.maxIterations + 1);
   times.reserve(lmParams.maxIterations + 1);
   costs.push_back(lm->error());
+  times.push_back(0.0);
   double prevErr = std::numeric_limits<double>::infinity();
   for (size_t it = 0; it < lmParams.maxIterations; ++it) {
     auto t0 = clock_type::now();
@@ -707,7 +708,7 @@ int main(int argc, char* argv[]) {
   std::string init_file   = datasetKeyFromPath(std::string(argv[4]));
 
   appendRunToResultsJsonFlat(
-    "varProj-gtsam/data/raslam/" + dataset_name + "/results.json",
+    "/home/alan/varProj-gtsam/data/raslam/" + dataset_name + "/results.json",
     dataset_name, formulation, init_file, costs, times);
 
   cout << "[Done] iterations=" << lm->iterations()
