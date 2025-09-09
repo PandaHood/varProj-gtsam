@@ -36,6 +36,18 @@ for folder in "${FOLDERS[@]}"; do
     failures+=("$folder (missing dir)")
     continue
   fi
+
+
+  # --- Skip if a JSON already exists in the directory ---
+  if [[ -f "$dir/results.json" ]]; then
+    echo "⏭️  Skipping '$folder': found results.json in $dir"
+    continue
+  fi
+  # If you prefer to skip when *any* JSON is present, use this instead:
+  # if compgen -G "$dir/*.json" > /dev/null; then
+  #   echo "⏭️  Skipping '$folder': found one or more .json files in $dir"
+  #   continue
+  # fi
   if [[ ! -f "$path" ]]; then
     echo "⚠️  Skipping '$folder': missing script $path" >&2
     failures+=("$folder (missing script)")

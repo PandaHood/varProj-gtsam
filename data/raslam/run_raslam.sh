@@ -5,7 +5,7 @@ set -uo pipefail
 BASE_DIR="${BA_BASE:-$PWD}"
 
 # Default folders. If you pass args, they'll replace this list (e.g., "./run_all.sh plaza1 tiers").
-FOLDERS=(mrclam plaza1 plaza2 single_drone tiers)
+FOLDERS=(mrclam2 mrclam4 mrclam6 mrclam7 plaza1 plaza2 single_drone tiers)
 if [[ $# -gt 0 ]]; then
   FOLDERS=("$@")
 fi
@@ -22,6 +22,19 @@ for folder in "${FOLDERS[@]}"; do
     failures+=("$folder (missing dir)")
     continue
   fi
+
+  # --- Skip if a JSON already exists in the directory ---
+  if [[ -f "$dir/results.json" ]]; then
+    echo "⏭️  Skipping '$folder': found results.json in $dir"
+    continue
+  fi
+  # If you prefer to skip when *any* JSON is present, use this instead:
+  # if compgen -G "$dir/*.json" > /dev/null; then
+  #   echo "⏭️  Skipping '$folder': found one or more .json files in $dir"
+  #   continue
+  # fi
+  # ------------------------------------------------------
+
   if [[ ! -f "$path" ]]; then
     echo "⚠️  Skipping '$folder': missing script $path" >&2
     failures+=("$folder (missing script)")
@@ -51,3 +64,4 @@ if [[ ${#failures[@]} -gt 0 ]]; then
 fi
 
 echo "🎉 All scripts completed successfully."
+

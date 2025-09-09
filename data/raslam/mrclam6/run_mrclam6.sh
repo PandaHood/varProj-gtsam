@@ -3,10 +3,11 @@ set -euo pipefail
 
 # Paths
 REPO_ROOT="$(git rev-parse --show-toplevel)"
+
 BIN="$REPO_ROOT/cmake-build-default/bin/RASLAM_example"
 DIM=2
-DATA_DIR="$REPO_ROOT/data/raslam/mrclam/mrclam2"
-PYFG="$DATA_DIR/mrclam2.pyfg"
+DATA_DIR="$REPO_ROOT/data/raslam/mrclam6"
+PYFG="$DATA_DIR/mrclam6.pyfg"
 INITS_DIR="$DATA_DIR/inits"
 
 # Checks

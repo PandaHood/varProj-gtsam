@@ -6,8 +6,8 @@ REPO_ROOT="$(git rev-parse --show-toplevel)"
 
 BIN="$REPO_ROOT/cmake-build-default/bin/RASLAM_example"
 DIM=2
-DATA_DIR="$REPO_ROOT/data/raslam/mrclam/mrclam4"
-PYFG="$DATA_DIR/mrclam4.pyfg"
+DATA_DIR="$REPO_ROOT/data/raslam/mrclam7"
+PYFG="$DATA_DIR/mrclam7.pyfg"
 INITS_DIR="$DATA_DIR/inits"
 
 # Checks

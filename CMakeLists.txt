@@ -30,8 +30,8 @@ endif()
 
 
 # Find GTSAM components
-set(GTSAM_DIR /home/alan/gtsam/build)
-set(GTSAM_UNSTABLE_DIR /home/alan/gtsam/build)
+set(GTSAM_DIR /home/nikolas/gtsam/build)
+set(GTSAM_UNSTABLE_DIR /home/nikolas/gtsam/build)
 set(GTSAM_MIN_VERSION "4.3.0")
 
 # Make sure CMake searches these directories first

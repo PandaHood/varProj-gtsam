@@ -3,10 +3,10 @@
 /data/raslam/plaza2/inits/*.txt
 /data/raslam/single_drone/inits/*.txt
 /data/raslam/tiers/inits/*.txt
-/data/raslam/mrclam/mrclam2/inits/*.txt
-/data/raslam/mrclam/mrclam4/inits/*.txt
-/data/raslam/mrclam/mrclam6/inits/*.txt
-/data/raslam/mrclam/mrclam7/inits/*.txt
+/data/raslam/mrclam2/inits/*.txt
+/data/raslam/mrclam4/inits/*.txt
+/data/raslam/mrclam6/inits/*.txt
+/data/raslam/mrclam7/inits/*.txt
 
 /data/sfm/bal-93/inits/*.txt
 data/sfm/bal-392/inits/*.txt
