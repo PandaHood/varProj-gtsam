@@ -119,6 +119,46 @@ static inline void printMat(const std::string& name, const gtsam::Matrix& M) {
 
 
 
+static bool isDuplicateRunRecorded(const std::string& out_path,
+                                   const std::string& dataset_name,
+                                   const std::string& formulation,
+                                   const std::string& init_file,
+                                   bool match_on_basename = true) {
+  using nlohmann::json;
+
+  std::ifstream ifs(out_path);
+  if (!ifs.good()) return false;  // no file yet → no duplicates
+
+  json root;
+  try {
+    ifs >> root;
+  } catch (...) {
+    return false; // bad/partial JSON → treat as no duplicates
+  }
+  if (!root.is_array()) return false; // old object format → ignore
+
+  // Normalize init_file key the same way your writer does
+  const std::string init_key =
+      match_on_basename ? std::filesystem::path(init_file).filename().string()
+                        : init_file;
+
+  for (const auto& e : root) {
+    if (!e.is_object()) continue;
+
+    const std::string e_ds  = e.value("dataset_name", "");
+    const std::string e_for = e.value("formulation",  "");
+    const std::string e_ini = e.value("init_file",    "");
+
+    // Compare both as-is and by basename to be robust
+    const std::string e_ini_base = std::filesystem::path(e_ini).filename().string();
+
+    if (e_ds == dataset_name && e_for == formulation &&
+        (e_ini == init_key || e_ini_base == init_key)) {
+      return true; // found a duplicate
+    }
+  }
+  return false;
+}
 
 using namespace std;
 using namespace gtsam;
@@ -465,6 +505,23 @@ int main(int argc, char* argv[]) {
     return 3;
   }
 
+
+  // Keys must match what you later write:
+  const std::string dataset_name = datasetNameFromPath(inputFile);          // e.g., "single_drone"
+  const std::string formulation  = "gtsam";                                  // your tag
+  const std::string init_key     = (argc > 4) ? datasetKeyFromPath(initFile) // filename only
+                                              : std::string();               // empty init is valid key
+
+  // Build the same results path you write to later
+  const std::string out_path = "/home/alan/varProj-gtsam/data/raslam/" + dataset_name + "/results.json";
+
+  if (isDuplicateRunRecorded(out_path, dataset_name, formulation, init_key, /*match_on_basename=*/true)) {
+    std::cout << "[SKIP] Duplicate run exists in " << out_path
+              << " for (dataset=" << dataset_name
+              << ", formulation=" << formulation
+              << ", init=" << init_key << ").\n";
+    return 0; // skip optimization
+  }
   // Load dataset
   auto measurements = DataParser::read_pycfg_file(inputFile);
   cout << "Loaded " << measurements.poseMeasurements.size()     << " pose measurements. "
@@ -703,13 +760,9 @@ int main(int argc, char* argv[]) {
 
 
   // Example metadata for the JSON writer:
-  std::string dataset_name = datasetNameFromPath(std::string(argv[3]));
-  string formulation = "gtsam"; // your code’s tag for “gtsam” / formulation type
-  std::string init_file   = datasetKeyFromPath(std::string(argv[4]));
-
   appendRunToResultsJsonFlat(
     "/home/alan/varProj-gtsam/data/raslam/" + dataset_name + "/results.json",
-    dataset_name, formulation, init_file, costs, times);
+    dataset_name, formulation, init_key, costs, times);
 
   cout << "[Done] iterations=" << lm->iterations()
        << "  final_error=" << lm->error()<<"\n";
