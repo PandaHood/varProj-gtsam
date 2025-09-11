@@ -23,6 +23,7 @@ include_directories(/usr/include/suitesparse)
 set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR}/lib CACHE PATH "The directory in which to place the SE-Sync library built by this project")
 # Directory for built executables
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR}/bin CACHE PATH "The directory in which to place executables built by this project")
+#set()
 find_package(Eigen3 3.3.7 REQUIRED)
 if(EIGEN3_FOUND)
     message(STATUS "Found Eigen3 library: ${EIGEN3_INCLUDE_DIR}")
@@ -30,8 +31,8 @@ endif()
 
 
 # Find GTSAM components
-set(GTSAM_DIR /home/nikolas/gtsam/build)
-set(GTSAM_UNSTABLE_DIR /home/nikolas/gtsam/build)
+set(GTSAM_DIR /home/nikolas/gtsam/cmake-build-release)
+set(GTSAM_UNSTABLE_DIR /home/nikolas/gtsam/cmake-build-release)
 set(GTSAM_MIN_VERSION "4.3.0")
 
 # Make sure CMake searches these directories first
@@ -99,10 +100,10 @@ add_subdirectory(cpp)
 
 #From fast verifications
 # Find Optimization library
-set(OPTIMIZATION_DIR ${CMAKE_CURRENT_SOURCE_DIR}/Optimization/ CACHE PATH "Path to top-level directory of Optimization library (the one containing CMakeLists.txt)")
+#set(OPTIMIZATION_DIR ${CMAKE_CURRENT_SOURCE_DIR}/Optimization/ CACHE PATH "Path to top-level directory of Optimization library (the one containing CMakeLists.txt)")
 
 # Run the Optimization package's CMake file
-add_subdirectory(${OPTIMIZATION_DIR})
+#add_subdirectory(${OPTIMIZATION_DIR})
 
 # Find Preconditioners library
 set(PRECONDITIONERS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/Preconditioners/ CACHE PATH "Path to top-level directory of Preconditioners library (the one containing CMakeLists.txt)")

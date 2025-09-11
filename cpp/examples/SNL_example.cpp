@@ -1,32 +1,4 @@
-//
-// Created by nikolas on 9/3/25.
-//
 
-#include <iomanip>
-#include <gtsam/base/timing.h>
-#include <gtsam/slam/InitializePose.h>
-#include <gtsam/slam/dataset.h>
-#include <unordered_set>
-#include "../utils.h"
-#include "../RaFactor.h"
-#include "../LiftedPose.h"
-#include "../SEsyncFactor.h"
-#include "../LandmarkFactor.h"
-#include "../LiftedRangeFactor.h"
-#include <gtsam/nonlinear/LevenbergMarquardtOptimizer.h>
-#include <iostream>
-#include <fstream>
-#include <chrono>
-#include <fstream>
-#include <iomanip>
-#include <string>
-#include <vector>
-#include <ctime>
-#include <limits>
-#include <filesystem>
-#include "../json.hpp"
-#include <chrono>
-#include <random>
 //
 // Created by nikolas on 9/3/25.
 //
