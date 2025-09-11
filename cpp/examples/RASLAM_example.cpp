@@ -678,7 +678,7 @@ int main(int argc, char* argv[]) {
     ++k; // IMPORTANT: increments in lock-step with factor creation
   }
 
-  cout << "Total Measurments from graph " << inputGraph.size() << ".\n";
+  // cout << "Total Measurments from graph " << inputGraph.size() << ".\n";
 
   // --- Diagnostics ---
   auto printKey = [](gtsam::Key K) {
@@ -688,40 +688,40 @@ int main(int argc, char* argv[]) {
 
   const size_t numRangeAux = k;
 
-  cout << "\n[Init] ================= INITIALIZATION SUMMARY =================\n";
-  cout << "[Init] d=" << d << "  p=" << p << "\n";
+  // cout << "\n[Init] ================= INITIALIZATION SUMMARY =================\n";
+  // cout << "[Init] d=" << d << "  p=" << p << "\n";
 
-  cout << "[Init] Pose keys (" << poseKeys.size() << "): ";
-  for (const auto& [T, I] : poseKeys) {
-    const Key K = Symbol(T, I);
-    cout << (initial.exists(K) ? "" : "[MISSING!] ");
-    printKey(K); cout << " ";
-  }
-  cout << "\n";
+  // cout << "[Init] Pose keys (" << poseKeys.size() << "): ";
+  // for (const auto& [T, I] : poseKeys) {
+  //   const Key K = Symbol(T, I);
+  //   cout << (initial.exists(K) ? "" : "[MISSING!] ");
+  //   printKey(K); cout << " ";
+  // }
+  // cout << "\n";
 
-  cout << "[Init] Landmark keys (" << landmarkKeys.size() << "): ";
-  for (const auto& [T, I] : landmarkKeys) {
-    const Key K = Symbol(T, I);
-    cout << (initial.exists(K) ? "" : "[MISSING!] ");
-    printKey(K); cout << " ";
-  }
-  cout << "\n";
+  // cout << "[Init] Landmark keys (" << landmarkKeys.size() << "): ";
+  // for (const auto& [T, I] : landmarkKeys) {
+  //   const Key K = Symbol(T, I);
+  //   cout << (initial.exists(K) ? "" : "[MISSING!] ");
+  //   printKey(K); cout << " ";
+  // }
+  // cout << "\n";
 
-  cout << "[Init] Range auxiliaries R_k (" << numRangeAux << "): ";
-  for (size_t kk = 0; kk < numRangeAux; ++kk) {
-    const Key K = Symbol('R', kk);
-    cout << (initial.exists(K) ? "" : "[MISSING!] ");
-    printKey(K); cout << " ";
-  }
-  cout << "\n";
+  // cout << "[Init] Range auxiliaries R_k (" << numRangeAux << "): ";
+  // for (size_t kk = 0; kk < numRangeAux; ++kk) {
+  //   const Key K = Symbol('R', kk);
+  //   cout << (initial.exists(K) ? "" : "[MISSING!] ");
+  //   printKey(K); cout << " ";
+  // }
+  // cout << "\n";
 
-  const size_t expected = poseKeys.size() + landmarkKeys.size() + numRangeAux;
-  cout << "[Init] Values.size() = " << initial.size()
-       << "  (expected ~ " << expected << ")\n";
-  if (initial.size() != expected) {
-    cerr << "[Init][WARNING] Values size mismatch; check duplicate keys or insertion logic.\n";
-  }
-  cout << "[Init] ===========================================================\n\n";
+  // const size_t expected = poseKeys.size() + landmarkKeys.size() + numRangeAux;
+  // cout << "[Init] Values.size() = " << initial.size()
+  //      << "  (expected ~ " << expected << ")\n";
+  // if (initial.size() != expected) {
+  //   cerr << "[Init][WARNING] Values size mismatch; check duplicate keys or insertion logic.\n";
+  // }
+  // cout << "[Init] ===========================================================\n\n";
 
   // --- Optimize ---
   auto lmParams = LevenbergMarquardtParams::CeresDefaults();

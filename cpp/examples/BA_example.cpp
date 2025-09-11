@@ -473,23 +473,23 @@ int main(int argc, char* argv[])
   }
 
   // Diagnostics on initialization
-  std::cout << "\n[Init] ================== RANDOM INITIALIZATION SUMMARY ==================\n";
-  std::cout << "[Init] d=" << d << "  p=" << p << "\n";
-  std::cout << "[Init] Pose keys (" << poseKeys.size() << "): ";
-  for (const auto& [tag, idx] : poseKeys) {
-    const Key K = Symbol(tag, idx);
-    std::cout << (initial.exists(K) ? "" : "[MISSING!] ");
-    printKeyCompact(K); std::cout << " ";
-  }
-  std::cout << "\n[Init] Landmark keys (" << landmarkKeys.size() << "): ";
-  for (const auto& [tag, idx] : landmarkKeys) {
-    const Key K = Symbol(tag, idx);
-    std::cout << (initial.exists(K) ? "" : "[MISSING!] ");
-    printKeyCompact(K); std::cout << " ";
-  }
-  std::cout << "\n[Init] Values.size() = " << initial.size()
-            << "  (expected ~ " << (poseKeys.size() + landmarkKeys.size()) << ")\n";
-  std::cout << "[Init] ====================================================================\n\n";
+  // std::cout << "\n[Init] ================== RANDOM INITIALIZATION SUMMARY ==================\n";
+  // std::cout << "[Init] d=" << d << "  p=" << p << "\n";
+  // std::cout << "[Init] Pose keys (" << poseKeys.size() << "): ";
+  // for (const auto& [tag, idx] : poseKeys) {
+  //   const Key K = Symbol(tag, idx);
+  //   std::cout << (initial.exists(K) ? "" : "[MISSING!] ");
+  //   printKeyCompact(K); std::cout << " ";
+  // }
+  // std::cout << "\n[Init] Landmark keys (" << landmarkKeys.size() << "): ";
+  // for (const auto& [tag, idx] : landmarkKeys) {
+  //   const Key K = Symbol(tag, idx);
+  //   std::cout << (initial.exists(K) ? "" : "[MISSING!] ");
+  //   printKeyCompact(K); std::cout << " ";
+  // }
+  // std::cout << "\n[Init] Values.size() = " << initial.size()
+  //           << "  (expected ~ " << (poseKeys.size() + landmarkKeys.size()) << ")\n";
+  // std::cout << "[Init] ====================================================================\n\n";
 
   if (graph.empty()) {
     std::cerr << "[ERROR] No LiftedLandmark factors found in dataset; nothing to optimize.\n";

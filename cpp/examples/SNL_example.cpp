@@ -418,13 +418,13 @@ int main(int argc, char* argv[])
             << " | variables init: " << initial.size() << "\n";
 
   // Diagnostics (optional)
-  {
-    std::cout << "[Init] Landmarks initialized: ";
-    for (auto lid : landmarkIds) { printKeyCompact(Symbol('L', lid)); std::cout << " "; }
-    std::cout << "\n[Init] Range auxiliaries R_k: ";
-    for (size_t kk = 0; kk < k; ++kk) { printKeyCompact(Symbol('R', kk)); std::cout << " "; }
-    std::cout << "\n";
-  }
+  // {
+  //   std::cout << "[Init] Landmarks initialized: ";
+  //   for (auto lid : landmarkIds) { printKeyCompact(Symbol('L', lid)); std::cout << " "; }
+  //   std::cout << "\n[Init] Range auxiliaries R_k: ";
+  //   for (size_t kk = 0; kk < k; ++kk) { printKeyCompact(Symbol('R', kk)); std::cout << " "; }
+  //   std::cout << "\n";
+  // }
 
   // --- Optimize ---
   auto lmParams = LevenbergMarquardtParams::CeresDefaults();
