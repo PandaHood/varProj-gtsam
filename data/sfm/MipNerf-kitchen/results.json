@@ -1,0 +1,79 @@
+[
+  {
+    "costs": [
+      2240166.438031031,
+      32568.039744693553,
+      24338.22552622918
+    ],
+    "dataset_name": "MipNerf-kitchen",
+    "formulation": "gtsam",
+    "init_file": "rank5_init1.txt",
+    "times": [
+      0.0,
+      6.738118164,
+      18.350926412
+    ]
+  },
+  {
+    "costs": [
+      2185247.9780755127,
+      34353.70567942867,
+      34246.65035848424
+    ],
+    "dataset_name": "MipNerf-kitchen",
+    "formulation": "gtsam",
+    "init_file": "rank5_init2.txt",
+    "times": [
+      0.0,
+      7.003630733,
+      13.147955078
+    ]
+  },
+  {
+    "costs": [
+      2216679.227777118,
+      35041.825763962705,
+      30556.837456218647,
+      29491.774863745668
+    ],
+    "dataset_name": "MipNerf-kitchen",
+    "formulation": "gtsam",
+    "init_file": "rank5_init3.txt",
+    "times": [
+      0.0,
+      6.751078143,
+      12.451280929,
+      6.306373733
+    ]
+  },
+  {
+    "costs": [
+      2158443.6876871395,
+      40771.780732512976,
+      21527.026916562903
+    ],
+    "dataset_name": "MipNerf-kitchen",
+    "formulation": "gtsam",
+    "init_file": "rank5_init4.txt",
+    "times": [
+      0.0,
+      6.750320838,
+      18.594220737
+    ]
+  },
+  {
+    "costs": [
+      2242059.8396124723,
+      37830.34726982859,
+      22491.35968593773
+    ],
+    "dataset_name": "MipNerf-kitchen",
+    "formulation": "gtsam",
+    "init_file": "rank5_init5.txt",
+    "times": [
+      0.0,
+      7.005694079,
+      18.229998877
+    ]
+  }
+]
