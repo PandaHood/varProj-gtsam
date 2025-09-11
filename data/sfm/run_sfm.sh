@@ -6,12 +6,27 @@ BASE_DIR="${BA_BASE:-$PWD}"
 
 # Default folders (excluding .py files)
 FOLDERS=(
-  bal-1934 bal-392 bal-93
-  IMC-gate IMC-temple IMC-rome
-  MipNerf-garden MipNerf-kitchen MipNerf-room
-  Replica-REPoffice0 Replica-REPoffice1 Replica-REProom0 Replica-REProom1
-  Replica-REPoffice0_100 Replica-REPoffice1_100 Replica-REProom0_100 Replica-REProom1_100
-  TUM-computer-R TUM-computer-T TUM-desk TUM-room
+  bal-93
+  bal-392
+  # bal-1934                # ran out of memory
+  # IMC-gate                # ran out of memory
+  # IMC-temple              # ran out of memory
+  # IMC-rome                # ran out of memory
+  MipNerf-garden
+  MipNerf-kitchen
+  MipNerf-room
+  # Replica-REPoffice0      # ran out of memory
+  # Replica-REPoffice1      # ran out of memory
+  # Replica-REProom0        # ran out of memory
+  # Replica-REProom1        # ran out of memory
+  Replica-REPoffice0_100
+  Replica-REPoffice1_100
+  Replica-REProom0_100
+  Replica-REProom1_100
+  # TUM-computer-R          # ran out of memory
+  # TUM-computer-T          # ran out of memory
+  # TUM-desk                # ran out of memory
+  # TUM-room                # ran out of memory
 )
 # If you pass args, they'll replace this list.
 if [[ $# -gt 0 ]]; then
