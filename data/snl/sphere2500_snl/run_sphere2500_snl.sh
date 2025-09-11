@@ -3,7 +3,11 @@ set -euo pipefail
 
 # Paths
 REPO_ROOT="$(git rev-parse --show-toplevel)"
-BIN="$REPO_ROOT/cmake-build-default/bin/SNL_example"
+BUILD_NAME="cmake-build-default"
+if [[ "$(whoami)" == "alan" ]]; then
+  BUILD_NAME="build"
+fi
+BIN="$REPO_ROOT/$BUILD_NAME/bin/SNL_example"
 DIM=3
 DATA_DIR="$REPO_ROOT/data/snl/sphere2500_snl"
 PYFG="$DATA_DIR/sphere2500_snl.pyfg"

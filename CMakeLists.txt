@@ -31,8 +31,8 @@ endif()
 
 
 # Find GTSAM components
-set(GTSAM_DIR /home/nikolas/gtsam/cmake-build-release)
-set(GTSAM_UNSTABLE_DIR /home/nikolas/gtsam/cmake-build-release)
+set(GTSAM_DIR ~/gtsam/build)
+set(GTSAM_UNSTABLE_DIR ~/gtsam/build)
 set(GTSAM_MIN_VERSION "4.3.0")
 
 # Make sure CMake searches these directories first
@@ -67,43 +67,11 @@ include(GtsamMakeConfigFile)
 include(GtsamBuildTypes)
 include(GtsamTesting)
 
-# #–– gflags
-# find_package(gflags REQUIRED)
-# if (gflags_FOUND)
-#     message(STATUS "gflags: found (version ${gflags_VERSION})")
-# else()
-#     message(WARNING "gflags: NOT found")
-# endif()
-
-# #–– glog
-# find_package(glog REQUIRED)
-# if (glog_FOUND)
-#     message(STATUS "glog: found (version ${glog_VERSION})")
-# else()
-#     message(WARNING "glog: NOT found")
-# endif()
-
-# #–– GoogleTest
-# find_package(GTest REQUIRED)
-# if (GTest_FOUND)
-#     message(STATUS "GTest: found (version ${GTest_VERSION})")
-# else()
-#     message(WARNING "GTest: NOT found")
-# endif()
-
 # for unittest scripts
 set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH}" "${GTSAM_DIR}/../GTSAMCMakeTools")
 
 # Process source subdirs
 add_subdirectory(cpp)
-
-
-#From fast verifications
-# Find Optimization library
-#set(OPTIMIZATION_DIR ${CMAKE_CURRENT_SOURCE_DIR}/Optimization/ CACHE PATH "Path to top-level directory of Optimization library (the one containing CMakeLists.txt)")
-
-# Run the Optimization package's CMake file
-#add_subdirectory(${OPTIMIZATION_DIR})
 
 # Find Preconditioners library
 set(PRECONDITIONERS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/Preconditioners/ CACHE PATH "Path to top-level directory of Preconditioners library (the one containing CMakeLists.txt)")

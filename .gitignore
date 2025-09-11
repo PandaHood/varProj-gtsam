@@ -35,3 +35,4 @@ data/sfm/bal-392/inits/*.txt
 /cmake-build-default/*
 build
 .vscode
+data/.DS_Store
