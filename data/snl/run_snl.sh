@@ -6,7 +6,7 @@ set -uo pipefail
 BASE_DIR="${BA_BASE:-$PWD}"
 
 # Default folders. If you pass args, they'll replace this list (e.g., "./run_snl_all.sh MIT_snl sphere2500_snl").
-FOLDERS=(intel_snl M3500_snl MIT_snl parking-garage_snl sphere2500_snl)
+FOLDERS=(city10000_snl grid3D_snl intel_snl M3500_snl MIT_snl parking-garage_snl sphere2500_snl torus3D_snl)
 if [[ $# -gt 0 ]]; then
   FOLDERS=("$@")
 fi
