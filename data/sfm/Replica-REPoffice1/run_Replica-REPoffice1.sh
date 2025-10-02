@@ -2,12 +2,12 @@
 set -euo pipefail
 
 # Paths
-
 REPO_ROOT="$(git rev-parse --show-toplevel)"
-BIN="$REPO_ROOT/cmake-build-default/bin/SNL_example"
+
+BIN="$REPO_ROOT/cmake-build-default/bin/BA_example"
 DIM=3
-DATA_DIR="$REPO_ROOT/data/snl/parking-garage_snl"
-PYFG="$DATA_DIR/parking-garage_snl.pyfg"
+DATA_DIR="$REPO_ROOT/data/sfm/Replica-REPoffice1"
+PYFG="$DATA_DIR/Replica-REPoffice1.pyfg"
 INITS_DIR="$DATA_DIR/inits"
 
 # Checks

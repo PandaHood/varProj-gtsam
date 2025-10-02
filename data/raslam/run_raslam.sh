@@ -5,7 +5,7 @@ set -uo pipefail
 BASE_DIR="${BA_BASE:-$PWD}"
 
 # Default folders. If you pass args, they'll replace this list (e.g., "./run_all.sh plaza1 tiers").
-FOLDERS=(mrclam2 mrclam4 mrclam6 mrclam7 plaza1 plaza2 single_drone tiers)
+FOLDERS=(mrclam2 mrclam4 mrclam6 mrclam7 plaza1 plaza2 single_drone tiers mit_outfinite)
 if [[ $# -gt 0 ]]; then
   FOLDERS=("$@")
 fi

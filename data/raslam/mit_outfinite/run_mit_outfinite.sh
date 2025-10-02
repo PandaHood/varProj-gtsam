@@ -2,12 +2,11 @@
 set -euo pipefail
 
 # Paths
-
 REPO_ROOT="$(git rev-parse --show-toplevel)"
-BIN="$REPO_ROOT/cmake-build-default/bin/SNL_example"
-DIM=3
-DATA_DIR="$REPO_ROOT/data/snl/parking-garage_snl"
-PYFG="$DATA_DIR/parking-garage_snl.pyfg"
+BIN="$REPO_ROOT/cmake-build-default/bin/RASLAM_example"
+DIM=2
+DATA_DIR="$REPO_ROOT/data/raslam/mit_outfinite"
+PYFG="$DATA_DIR/mit_outfinite.pyfg"
 INITS_DIR="$DATA_DIR/inits"
 
 # Checks

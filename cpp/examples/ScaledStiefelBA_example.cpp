@@ -168,7 +168,7 @@ int main(int argc, char* argv[])
   auto lmParams = LevenbergMarquardtParams::CeresDefaults();
   lmParams.maxIterations    = 200;      // tweak as you wish
   lmParams.relativeErrorTol = 1e-10;    // tighter tolerances if needed
-  lmParams.verbosityLM      = LevenbergMarquardtParams::SUMMARY;
+  lmParams.verbosityLM      = LevenbergMarquardtParams::SILENT;
 
   std::cout << "[Optimize] Starting LM with " << graph.size()
             << " factors and " << initial.size() << " variables...\n";

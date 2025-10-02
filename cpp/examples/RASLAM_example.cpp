@@ -727,7 +727,7 @@ int main(int argc, char* argv[]) {
   auto lmParams = LevenbergMarquardtParams::CeresDefaults();
   lmParams.maxIterations    = 1000;
   lmParams.relativeErrorTol = 1e-20;
-  lmParams.verbosityLM      = LevenbergMarquardtParams::SUMMARY;
+  lmParams.verbosityLM      = LevenbergMarquardtParams::SILENT;
 
   auto lm = std::make_shared<LevenbergMarquardtOptimizer>(inputGraph, initial, lmParams);
   auto t2 = clock_type::now();
