@@ -1,6 +1,9 @@
 # GTSAM Experiments for the paper Sparse Variable Projection in Robotic Perception: Exploiting Separable Structure for Efficient Nonlinear Optimization
 
-This is the code for the gtsam experiments in the paper Sparse Variable Projection in Robotic Perception: Exploiting SeparableStructure for Efficient Nonlinear Optimization. For the rest of the experiments please see ___
+This is the code for the gtsam experiments in the paper Sparse Variable Projection in Robotic Perception: Exploiting SeparableStructure for Efficient Nonlinear Optimization by Alan Papalia, Nikolas Sanderson, Haoyu Han, Heng Yang, Hanumant Singh, and Michael Everett. For the rest of the experiments please see ___. 
+
+You can find the paper:
+Please cite us:
 
 ## Install
 
