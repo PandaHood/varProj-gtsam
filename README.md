@@ -3,6 +3,7 @@
 This is the code for the gtsam experiments in the paper Sparse Variable Projection in Robotic Perception: Exploiting SeparableStructure for Efficient Nonlinear Optimization by Alan Papalia, Nikolas Sanderson, Haoyu Han, Heng Yang, Hanumant Singh, and Michael Everett. For the rest of the experiments please see ___. 
 
 You can find the paper:
+
 Please cite us:
 
 ## Install
@@ -33,6 +34,7 @@ set(GTSAMCMakeTools_DIR "path to your /gtsam/cmake")
 ```
 
 )
+
 To run the experiments:
 ```bash
 git clone git@github.com:PandaHood/varProj-gtsam.git
